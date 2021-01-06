@@ -1,0 +1,152 @@
+body {
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: 0;
+    display: grid;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 1000px;
+    height: 840px;
+    display: grid;
+    grid-template-rows: 10% 5% 10% 40% 35%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: antiquewhite;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.magnify {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.shop {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    justify-content: right;
+    width: 200px;
+}
+
+.shop-graphic {
+    justify-content: right;
+}
+
+.shop-options {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+
+}
+
+.bag {
+    text-align: left;
+}
+
+.list {
+    text-align: left;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background: forestgreen;
+    color: lightgray;
+
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: slategray;
+    color: white;
+}
+
+.sale {
+    display: grid;
+    background-color: crimson;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale-detais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: antiquewhite;
+    align-items: center;
+    justify-content: center;
+}
+
+.women {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footwear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.men {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clearance {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
