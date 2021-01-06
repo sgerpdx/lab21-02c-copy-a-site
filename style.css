@@ -23,38 +23,43 @@ main {
     align-items: center;
     justify-content:space-evenly;
     background-color: antiquewhite;
+    width: 100%;
 }
 
 .company {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
+    width: 30%;
 }
 
 .search {
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 500px;
+    justify-content: space-evenly;
+    width: 50%;
 }
 
 .magnify {
     display: flex;
     align-items: center;
     justify-content:space-evenly;
+    width: 30px;
 }
 
 .search-input {
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content:center;
+    padding: 0px 0px 0px 20px;
+    width: 370px;
 }
 
 .search-button {
     display: flex;
     align-items: center;
     justify-content:space-evenly;
+    width: 80%;
 }
 
 .shop {
@@ -62,7 +67,7 @@ main {
     grid-template-columns: 10% 90%;
     align-items: center;
     justify-content: right;
-    width: 200px;
+    width: 20%;
 }
 
 .shop-graphic {
@@ -73,7 +78,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: right;
-
 }
 
 .bag {
