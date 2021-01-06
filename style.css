@@ -41,30 +41,24 @@ main {
 .search {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 45%;
 }
 
 .magnify {
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
     width: 30px;
+    justify-content: space-evenly;
 }
 
 .search-input {
-    display: flex;
-    align-items: center;
-    justify-content:center;
     padding: 0px 0px 0px 20px;
-    width: 370px;
+    width: 340px;
+    justify-content: space-evenly;
 }
 
 .search-button {
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
-    width: 80px;
+    width: 110px;
+    justify-content: space-evenly;
 }
 
 .shop {
@@ -155,25 +149,88 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.woman-img {
+    display: flex;
+    flex-direction: reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.woman-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-weight: bold;
 }
 
 .footwear {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.footwear-img {
+    display: flex;
+    flex-direction: reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.footwear-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-weight: bold;
 }
 
 .men {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.man-img {
+    display: flex;
+    flex-direction: reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.man-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-weight: bold;
 }
 
 .clearance {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
+.clearance-img {
+    display: flex;
+    flex-direction: reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.clearance-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-weight: bold;
+}
 
 
