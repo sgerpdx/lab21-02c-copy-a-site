@@ -1,10 +1,12 @@
 body {
-    background-color: gray;
+    background-color: lightgray;
     width: 100%;
     height: 100%;
     padding: 20px;
     margin: 0;
     display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 * {
@@ -30,14 +32,17 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 35%;
+    font-size: 2.4rem;
+    color: forestgreen;
+    font-family: 'Hanalei Fill', cursive;
 }
 
 .search {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 50%;
+    width: 45%;
 }
 
 .magnify {
@@ -59,7 +64,7 @@ main {
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    width: 80%;
+    width: 80px;
 }
 
 .shop {
@@ -105,11 +110,28 @@ main {
     color: white;
 }
 
+.offer-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+}
+
+.offer-details {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 65%;
+    padding: 0px 0px 0px 20px;
+}
+
 .sale {
     display: grid;
     background-color: crimson;
     align-items: center;
     justify-content: center;
+    font-size: 3rem;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .sale-detais {
@@ -118,6 +140,7 @@ main {
     justify-content: center;
     text-align: center;
     flex-direction: row;
+    
 }
 
 .categories {
